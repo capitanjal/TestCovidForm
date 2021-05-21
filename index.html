@@ -5,7 +5,7 @@
 <title>Covid Vaccine Questionare</title>
 </head>
 <body>
-	<form id="formCovid" name="formCovid" method="post" enctype="multipart/form-data" action="mailto:jalog100@gmail.com">
+	<form id="formCovid" name="formCovid" method="post" enctype="multipart/form-data" action="mailto:contact@yourdomain.com">
 		<strong> COVID 19 (Pfize-BioNTech) VACCINE QUESTIONARE AND CONSENT 2020-2021 FORM</strong>
 		<br>
 		<br>
@@ -96,6 +96,9 @@
 			</p>
 			<label for="textfield" class="guardian"><strong>Client/Parent/Guardian Name:</strong><input name="guardian" type="text" id="guardian"></label>
 			
+			
+			
+			<label><strong>Date (dd/mm/yyyy):</strong></label><input type="text" name="frmDateReg" required id="frmDate"></label>
 			<script>
 				function getDate(){
 					var todaydate = new Date();
@@ -107,8 +110,6 @@
 				}
 				document.getElementById("frmDate").onload = getDate();
 			</script>
-			
-			<label><strong>Date (dd/mm/yyyy):</strong></label><input type="text" name="frmDateReg" required id="frmDate"></label>
 		<br>
 		<br>
 		<input type="submit" value="Submit">
