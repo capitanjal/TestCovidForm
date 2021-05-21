@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Covid Vaccine Questionare</title>
+</head>
+<body>
+	<form id="formCovid" name="formCovid" method="post" enctype="multipart/form-data" action="mailto:contact@yourdomain.com>
+		<strong> COVID 19 (Pfize-BioNTech) VACCINE QUESTIONARE AND CONSENT 2020-2021 FORM</strong>
+		<br>
+		<br>
+		<label>Name:<input name="lastname" type="text" id="lastname" placeholder="Last Name"><input name="firstname" type="text" id="firstname" placeholder="First Name"></label>
+		<br>
+		<label for="textfield" class="dob">Date of birth:<input name="dob" type="date" id="dob"></label>
+		<br>
+		<label for="textfield">Age:<input name="birthday" type="text" id="age" maxlength="2" size="3" placeholder="Age"></label>
+		<br>
+		<label for="select">Sex:<select name="select" id="select">
+			<option disabled selected value style="display:none">--select an option--</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			</select>
+		</label>
+		<br>
+		<label>Residence Address(Include island):<input name="address" type="text" id="address" placeholder="Address" size="70"></label>
+		<br>
+		<label>Email Address:<input name="mail" type="text" id="email" placeholder="E-Mail" size="30"></label>
+		<br>
+		<label>Phone:<input name="phone" type="text" id="phone" placeholder="Phone Number"></label>
+		<br>
+		<label>Occupation:<input name="ocupation" type="text" id="ocupation" placeholder="Occupation" size="30"></label>
+		&emsp;
+		<br>
+		<label>Employer:<input name="employer" type="text" id="employer" placeholder="Employer" size="30"></label>
+		<br>
+		<p>
+		<label>Place of Vaccination:
+		<input type="radio" name="plcVac" value="phcd" id="plcVac_0">PHCD
+		</label>
+		<label>
+		<input type="radio" name="plcVac" value="gp" id="plcVac_1">GP
+		</label>
+		<label>
+		<input type="radio" name="plcVac" value="wellctr" id="plcVac_2">Wellness Center</label>
+		<label><input type="radio" name="plcVac" value="prison" id="plcVac_3">Prison Clinic</label>
+		<label id="other"><input type="radio" name="other" value="other" id="plcVac_4">Other&nbsp;
+		<input type="text" id="plcVac_other" name="txtbox" placeholder="Specify GP Clinic" >
+		</label>
+		</p>
+		<u><strong>Tick (&#10004;) the appropiate answer to questions below:</strong></u>
+		<p>
+		<label><strong>1.&emsp;Are you suffering from a fever today?:</strong></label>
+		<label><input type="radio" name="fever" value="fever_true" id="fever_0">Yes</label>
+		<label><input type="radio" name="fever" value="fever_false" id="fever_1">No</label>
+			</p>
+		
+		<p>
+		<label><strong>2.&emsp;Do you have any of the following medical conditions?:</strong>
+		<br>
+		<label><input type="checkbox" name="cronicalCond" value="HIV" id="cronicalCond_0">Impaired Immunity</label>
+		<label><input type="checkbox" name="cronicalCond" value="diabetes" id="cronicalCond_1">Diabetes</label>
+		<label><input type="checkbox" name="cronicalCond" value="cancer" id="cronicalCond_2">Cancer</label>
+		<label><input type="checkbox" name="cronicalCond" value="lungs" id="cronicalCond_3">Chronic Lung Disease</label>
+		<label><input type="checkbox" name="cronicalCond" value="liver" id="cronicalCond_4">Chronic Liver Disease</label>
+		<label><input type="checkbox" name="cronicalCond" value="heart" id="cronicalCond_5">Chronic Heart Disease</label>
+		<label><input type="checkbox" name="cronicalCond" value="sickleCells" id="cronicalCond_6">Sickle Cell Disease</label>
+		<label><input type="checkbox" name="cronicalCond" value="renal" id="cronicalCond_7">Chronic Renal Disease</label>
+		<label><input type="checkbox" name="cronicalCond" value="obese" id="cronicalCond_8">Morbid Obesity</label>
+		<label><input type="checkbox" name="cronicalCond" value="aspirinTherapy" id="cronicalCond_9">Long Term Aspirin Therapy</label>
+		<br>
+		<label><input type="radio" name="cronicalCond" value="otherConditions" id="cronicalCond_10">Other&nbsp;<input type="text" id="cronicalCond_other" name="txtbox" placeholder="Other"></label>
+			<br>
+		<label><input type="radio" name="cronicalCond" value="noneConditions" id="cronicalCond_10">None&nbsp;<input type="text" id="cronicalCond_other" name="txtbox" placeholder="None of the above"></label>
+	</label>
+		</p>
+		<p>
+			<label><strong>3.&emsp;Are you pregnant?:</strong></label>
+			<label><input type="radio" name="pregnant" value="preg_true" id="pregnant_0">Yes</label>
+			<label><input type="radio" name="pregnant" value="preg_false" id="pregnant_1">No</label>
+		</p>
+		<p>
+			<label><strong>4.&emsp;Are you a Healthcare worker?:</strong></label>
+			<label><input type="radio" name="hcare" value="hcare_true" id="hcare_0">Yes</label>
+			<label><input type="radio" name="hcare" value="hcare_false" id="hcare_1">No</label>
+		</p>
+		<p>
+			<label><strong>5.&emsp;Have you ever had any serious allergic reaction to a previous vaccine?:</strong></label>
+			<label><input type="radio" name="allergicReact" value="allergicReact_true" id="allergicReact_0">Yes</label>
+			<label><input type="radio" name="allergicReact" value="allergicReact_false" id="allergicReact_1">No</label>
+		</p>
+		<label><strong>6.&emsp;List of allergies:</strong><br><textarea name="lAllergies" id="lAllergies" cols="50" rows="5" placeholder="Allergies List"></textarea>
+			<p>
+				<label><strong>7.&emsp;I verify that i have not had the influenza vaccine within the last 30 days:</strong></label>
+				<label><input type="radio" name="vacInfluenza" value="vacInfluenza_true" id="vacInfluenza_0">Yes</label>
+				<label><input type="radio" name="vacInfluenza" value="vacInfluenza_false" id="vacInfluenza_1">No</label>
+			</p>
+			<label for="textfield" class="guardian"><strong>Client/Parent/Guardian Name:</strong><input name="guardian" type="text" id="guardian"></label>
+			
+			<script>
+				function getDate(){
+					var todaydate = new Date();
+					var day = todaydate.getDate();
+					var month = todaydate.getMonth() + 1;
+					var year = todaydate.getFullYear();
+					var datestring = day + "/" + month + "/" + year;
+					document.getElementById("frmDate").value = datestring;
+				}
+				document.getElementById("frmDate").onload = getDate();
+			</script>
+			
+			<label><strong>Date (dd/mm/yyyy):</strong></label><input type="text" name="frmDateReg" required id="frmDate"></label>
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+</label>
+		
+</form>
+</body>
+</html>
